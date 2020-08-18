@@ -4,6 +4,6 @@ from application.db.people import get_employees
 
 if __name__ == '__main__':
     print(datetime.date.today())
-    calculate_salary(1)
-    get_employees(1)
+    calculate_salary()
+    get_employees()
 

@@ -1,5 +1,7 @@
 from application import *
 
-calculate_salary(1)
-get_employees(1)
+if __name__ == '__main__':
+    print("dirty_main.py")
+    calculate_salary()
+    get_employees()
 
